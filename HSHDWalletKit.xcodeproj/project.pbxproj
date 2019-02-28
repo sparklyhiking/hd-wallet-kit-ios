@@ -13,7 +13,7 @@
 		11B355D8738CEEACF1245238 /* Mnemonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35B2745FFB89D4D241128 /* Mnemonic.swift */; };
 		11B35BFD99D5E5E892A409C5 /* HDKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3540A90564C1DE57068F3 /* HDKeychain.swift */; };
 		11B35D975F1D4178BE064826 /* HDWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35D68EBB7F4D7F6F47CFF /* HDWallet.swift */; };
-		5AB3193B061F3691D16747F4 /* Pods_HSHDWalletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B8749A3CE97C1A97DF015D /* Pods_HSHDWalletKit.framework */; };
+		D0912C636E196B30FC37D9FD /* Pods_HSHDWalletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C9594098D7382952FD4855 /* Pods_HSHDWalletKit.framework */; };
 		D3817595216A1083001FA894 /* HSHDWalletKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D3817593216A1083001FA894 /* HSHDWalletKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -24,14 +24,12 @@
 		11B35B2745FFB89D4D241128 /* Mnemonic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mnemonic.swift; sourceTree = "<group>"; };
 		11B35C5101D9EB96E9B4271B /* HDPrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDPrivateKey.swift; sourceTree = "<group>"; };
 		11B35D68EBB7F4D7F6F47CFF /* HDWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDWallet.swift; sourceTree = "<group>"; };
-		867201358DF48ECB84032964 /* Pods-HSHDWalletKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSHDWalletKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSHDWalletKit/Pods-HSHDWalletKit.release.xcconfig"; sourceTree = "<group>"; };
-		97E51A82B3581D16DE2CF3EB /* Pods-HSHDWalletKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSHDWalletKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSHDWalletKit/Pods-HSHDWalletKit.debug.xcconfig"; sourceTree = "<group>"; };
-		9D6EC56635A127EFDF4E533E /* Pods-HSHDWalletKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSHDWalletKit.release.xcconfig"; path = "Target Support Files/Pods-HSHDWalletKit/Pods-HSHDWalletKit.release.xcconfig"; sourceTree = "<group>"; };
+		58C9594098D7382952FD4855 /* Pods_HSHDWalletKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSHDWalletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACB4CA922FE13D33C9E17D6 /* Pods-HSHDWalletKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSHDWalletKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSHDWalletKit/Pods-HSHDWalletKit.debug.xcconfig"; sourceTree = "<group>"; };
 		D3817590216A1083001FA894 /* HSHDWalletKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSHDWalletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3817593216A1083001FA894 /* HSHDWalletKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSHDWalletKit.h; sourceTree = "<group>"; };
 		D3817594216A1083001FA894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		EE55DA979E257488D710D004 /* Pods-HSHDWalletKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSHDWalletKit.debug.xcconfig"; path = "Target Support Files/Pods-HSHDWalletKit/Pods-HSHDWalletKit.debug.xcconfig"; sourceTree = "<group>"; };
-		F3B8749A3CE97C1A97DF015D /* Pods_HSHDWalletKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSHDWalletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACA7FE0E464F2219892135C /* Pods-HSHDWalletKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSHDWalletKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSHDWalletKit/Pods-HSHDWalletKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB3193B061F3691D16747F4 /* Pods_HSHDWalletKit.framework in Frameworks */,
+				D0912C636E196B30FC37D9FD /* Pods_HSHDWalletKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,23 +57,21 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		1216C3A45106B7FE5C92AD3C /* Frameworks */ = {
+		85895B25CC2DB4242CBD4947 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F3B8749A3CE97C1A97DF015D /* Pods_HSHDWalletKit.framework */,
+				58C9594098D7382952FD4855 /* Pods_HSHDWalletKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7B7016ABCC8410EFE163174F /* Pods */ = {
+		87E265665A361EDA0BCF4EA7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EE55DA979E257488D710D004 /* Pods-HSHDWalletKit.debug.xcconfig */,
-				9D6EC56635A127EFDF4E533E /* Pods-HSHDWalletKit.release.xcconfig */,
-				97E51A82B3581D16DE2CF3EB /* Pods-HSHDWalletKit.debug.xcconfig */,
-				867201358DF48ECB84032964 /* Pods-HSHDWalletKit.release.xcconfig */,
+				8ACB4CA922FE13D33C9E17D6 /* Pods-HSHDWalletKit.debug.xcconfig */,
+				FACA7FE0E464F2219892135C /* Pods-HSHDWalletKit.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D3817586216A1083001FA894 = {
@@ -83,8 +79,8 @@
 			children = (
 				D3817592216A1083001FA894 /* HSHDWalletKit */,
 				D3817591216A1083001FA894 /* Products */,
-				7B7016ABCC8410EFE163174F /* Pods */,
-				1216C3A45106B7FE5C92AD3C /* Frameworks */,
+				87E265665A361EDA0BCF4EA7 /* Pods */,
+				85895B25CC2DB4242CBD4947 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3817598216A1083001FA894 /* Build configuration list for PBXNativeTarget "HSHDWalletKit" */;
 			buildPhases = (
-				D4341F3C46B306F86BE84634 /* [CP] Check Pods Manifest.lock */,
+				EDCFE88E9BE00B423B57F9FA /* [CP] Check Pods Manifest.lock */,
 				D381758B216A1083001FA894 /* Headers */,
 				D381758C216A1083001FA894 /* Sources */,
 				D381758D216A1083001FA894 /* Frameworks */,
@@ -182,7 +178,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D4341F3C46B306F86BE84634 /* [CP] Check Pods Manifest.lock */ = {
+		EDCFE88E9BE00B423B57F9FA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,7 +343,7 @@
 		};
 		D3817599216A1083001FA894 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97E51A82B3581D16DE2CF3EB /* Pods-HSHDWalletKit.debug.xcconfig */;
+			baseConfigurationReference = 8ACB4CA922FE13D33C9E17D6 /* Pods-HSHDWalletKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -375,7 +371,7 @@
 		};
 		D381759A216A1083001FA894 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 867201358DF48ECB84032964 /* Pods-HSHDWalletKit.release.xcconfig */;
+			baseConfigurationReference = FACA7FE0E464F2219892135C /* Pods-HSHDWalletKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
